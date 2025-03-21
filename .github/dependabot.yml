@@ -1,0 +1,15 @@
+version: 2
+
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: daily
+    ignore:
+      - unverified_script_exec: linz/test-landonline-nr-tag-improver
+      - unverified_script_exec: linz/test-landonline-nr-tag-improver
+      - unverified_script_exec: linz/test-landonline-nr-tag-improver
+      - injection: linz/test-landonline-nr-tag-improver
+      - github_action_from_unverified_creator_used: ad-m/github-push-action
+      - github_action_from_unverified_creator_used: ataylorme/eslint-annotate-action
+      - github_action_from_unverified_creator_used: benc-uk/workflow-dispatch
